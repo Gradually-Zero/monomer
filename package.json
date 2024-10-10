@@ -4,7 +4,7 @@
     "license": "MIT",
     "scripts": {
         "preinstall": "npx only-allow pnpm",
-        "prepare": "husky install",
+        "prepare": "husky",
         "remove-sub-modules": "pnpm -r exec rm -rf node_modules",
         "remove-sub-dist": "pnpm -r exec rm -rf dist",
         "clear": "sh ./scripts/clear.sh",
@@ -16,13 +16,13 @@
         ]
     },
     "devDependencies": {
-        "@typescript-eslint/eslint-plugin": "^6.17.0",
-        "@typescript-eslint/parser": "^6.17.0",
-        "eslint": "^8.56.0",
+        "@typescript-eslint/eslint-plugin": "^8.8.1",
+        "@typescript-eslint/parser": "^8.8.1",
+        "eslint": "^9.12.0",
         "eslint-config-prettier": "^9.1.0",
-        "eslint-plugin-prettier": "^5.1.2",
-        "husky": "^8.0.3",
-        "lint-staged": "^15.2.0",
-        "prettier": "^3.1.1"
+        "eslint-plugin-prettier": "^5.2.1",
+        "husky": "^9.1.6",
+        "lint-staged": "^15.2.10",
+        "prettier": "^3.3.3"
     }
 }
